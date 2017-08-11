@@ -11,22 +11,5 @@ $("header").html("<div class='desktop-navbar menu'>"+
 "<span class='info'>314.957.8597</span>"+
 "</div>");
 
-/*NAVBAR ANIMATION SCRIPT*/
-  $(function() {
-    console.log('JQ has begun!');
-    var navBar = $(".menu");
-    $(window).scroll(function() {
-        var scroll = $(window).scrollTop();
-
-        if (scroll >= 500) {
-            navBar.addClass("smaller");
-            console.log('the navbar should get smaller');
-        } else {
-            navBar.removeClass("smaller");
-            console.log('the navbar should get bigger')
-        }
-    });
-});
-
     
 });
