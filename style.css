@@ -201,13 +201,17 @@ a.review-links:hover {
 }
 
 
+.review-links {
+    color: #CD5C5C;
+}
+
 footer {
   background-color: #CD5C5C;
   height: 100px;
   width: 100%;
   margin: 0;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: #FFFFFF;
   display: flex;
   justify-content: space-around;
