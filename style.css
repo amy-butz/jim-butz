@@ -165,7 +165,7 @@ a.review-links:hover {
     background: #17202A;
     font-family: 'Raleway', sans-serif;
     color: #FFFFFF;
-    margin: 0px;
+    margin: 0;
     width: 100%;
     box-sizing: border-box;
     padding-top: 40px;
@@ -182,7 +182,7 @@ a.review-links:hover {
 .gallery {
   margin: 50px;
   width: 450px;
-  height: 450px;
+  height: 500px;
 }
 
 .gallery-image {
